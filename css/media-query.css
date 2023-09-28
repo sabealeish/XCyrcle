@@ -1,0 +1,178 @@
+@media screen and (max-width: 767px){
+    
+    header{
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    header .logo {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        left: 10%;
+    }
+
+    header .logo img{
+        width: 50%;
+
+    }
+
+    .open-menu{
+        display: block;
+    }
+    .navbar{display: none;}
+   
+    .close-mnuo{
+        margin-bottom: 20px;
+        text-align: left;
+        display: block;
+    }
+    .close-mnuo i {
+        font-size: 25px;
+        color: white;
+    }
+
+    .home .home-content h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .home .home-content p{
+        font-size: 17px;
+    }
+
+    .home .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0 0 0 / 70%);
+      }
+
+      .place__container-services {
+        grid-template-columns: repeat(1, max-content);
+    }
+
+    .mechanism .place__card div i {
+        font-size: 15px;
+        background-color: #755efc;
+        padding: 12px;
+        border-radius: 15px;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .mechanism .place__card div h3 {
+        font-size: 18px;
+        color: #21116f;
+    }
+
+    .mechanism .place__card div p {
+        width: 100%;
+        font-size: 13px;
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    .mechanism .place__card div {
+        text-align: right;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        position: relative;
+        width: 270px;
+        height: 209px;
+        transition: 0.3s;
+    }
+
+    .mechanism {
+        margin-top: 20%;
+        background-color: #f3f1ff;
+        height: 1369px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        direction: rtl;
+    }
+
+    .about h2 {
+        font-size: 19px;
+        color: white;
+    }
+
+    .about p {
+        font-size: 16px;
+        color: #ababab;
+        margin-top: 15px;
+    }
+
+    .about {
+        margin: auto;
+        text-align: center;
+        margin-top: 10%;
+        background: rgb(28,13,103);
+        background: linear-gradient(240deg, rgba(28,13,103,1) 0%, rgba(103,82,229,1) 57%);
+        width: 80%;
+        height: 120px;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .di-cont{
+        display: block;
+    }
+
+    .img-contact img{
+        display: none;
+    }
+
+    .di-cont form input,
+    .di-cont form textarea{
+        width: 100% !important;
+    }
+
+    .about-xcyr{
+        display: block;
+    }
+
+    .sec-foot{
+        display:  block !important;
+    }
+
+    footer{
+        height: 1300px;
+    }
+
+    .title-about-xcyr p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .title-about-xcyr ul li{
+        font-size: 11.5px;
+    }
+
+    .about-xcyr img{
+        width: 100%;
+    }
+
+    .contact-sec div div form input
+{
+  font-size: 15px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin: 0 auto 29px;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    color: #21116f;
+}
+}
