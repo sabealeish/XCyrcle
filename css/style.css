@@ -489,7 +489,7 @@ section{
 }
 
 .about-xcyr img{
-  width: 60%;
+  width: 80%;
   border-radius: 15px;
 }
 
@@ -505,13 +505,13 @@ section{
 .title-about-xcyr p{
   font-size: 17px;
   color: #ababab;
-  width: 300%;
+  width: 100%;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .title-about-xcyr ul{
-  width: 300%;
+  width: 100%;
 }
 
 .title-about-xcyr ul li{
@@ -535,12 +535,14 @@ section{
 }
 
 .sec-articles{
-  background-color: black;
+  background: rgb(28,13,103);
+  background: linear-gradient(240deg, rgba(28,13,103,1) 0%, rgba(103,82,229,1) 57%);
 }
 
 .sec-articles .articles div{
   text-align: center;
   margin: 15px;
+
 }
 
 .sec-articles .articles div img{
@@ -548,6 +550,7 @@ section{
   background-color: white;
   border-radius: 15px;
   padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .contact-sec{
